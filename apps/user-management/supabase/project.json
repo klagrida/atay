@@ -1,0 +1,6 @@
+{
+  "name": "user-management-supabase",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/user-management/supabase"
+}
