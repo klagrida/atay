@@ -1,4 +1,4 @@
-# ice-breaker
+# ice-breaker-supabase
 
 ## Folder Structure
 
@@ -27,29 +27,29 @@ apps/ice-breaker/supabase/
 
 Build environment configurations:
 ```bash
-nx run ice-breaker:build
+nx run ice-breaker-supabase:build
 ```
 
 Start/Stop Supabase (convenient shortcuts):
 ```bash
 # Start Supabase (defaults to 'local' environment, runs build first)
-nx run ice-breaker:start
+nx run ice-breaker-supabase:start
 
 # Start with production environment
-nx run ice-breaker:start --env=production
+nx run ice-breaker-supabase:start --env=production
 
 # Stop Supabase
-nx run ice-breaker:stop
+nx run ice-breaker-supabase:stop
 ```
 
 Run other Supabase commands:
 ```bash
 # Check status
-nx run ice-breaker:run-command --command="supabase status"
+nx run ice-breaker-supabase:run-command --command="supabase status"
 
 # Create migration
-nx run ice-breaker:run-command --command="supabase migration new my_table"
+nx run ice-breaker-supabase:run-command --command="supabase migration new my_table"
 
 # Run any Supabase CLI command
-nx run ice-breaker:run-command --env=local --command="supabase db reset"
+nx run ice-breaker-supabase:run-command --env=local --command="supabase db reset"
 ```

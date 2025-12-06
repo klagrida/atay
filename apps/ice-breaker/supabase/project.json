@@ -1,5 +1,5 @@
 {
-  "name": "ice-breaker",
+  "name": "ice-breaker-supabase",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/ice-breaker/supabase"
