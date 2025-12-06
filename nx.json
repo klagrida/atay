@@ -10,5 +10,8 @@
       "default"
     ],
     "sharedGlobals": []
-  }
+  },
+  "plugins": [
+    "@gridatek/nx-supabase"
+  ]
 }
