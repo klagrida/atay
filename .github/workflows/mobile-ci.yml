@@ -74,7 +74,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Prepare Android build
-        run: npx nx run ice-breaker-mobile:prepare --platform=android
+        run: npx nx run ice-breaker-mobile:prepare --platform=android --configuration=prod
 
       - name: Build Android APK
         run: npx nx run ice-breaker-mobile:build --platform=android --configuration=prod
@@ -115,7 +115,7 @@ jobs:
         run: sudo gem install cocoapods
 
       - name: Prepare iOS build
-        run: npx nx run ice-breaker-mobile:prepare --platform=ios
+        run: npx nx run ice-breaker-mobile:prepare --platform=ios --configuration=prod
 
       - name: Build iOS
         run: npx nx run ice-breaker-mobile:build --platform=ios --configuration=prod
