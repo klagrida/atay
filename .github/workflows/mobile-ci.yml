@@ -44,7 +44,7 @@ jobs:
         run: npx nx lint ice-breaker-mobile
 
       - name: Type check
-        run: npx nx run ice-breaker-mobile:build --dry-run || echo "Type checking via build dry-run"
+        run: npx nx run ice-breaker-mobile:build --platform=android --configuration=prod --dry-run || echo "Type checking via build dry-run"
 
   build-android:
     name: Build Android
