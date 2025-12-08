@@ -5,7 +5,7 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
-    "@gridatek/nx-supabase": "^0.7.0",
+    "@gridatek/nx-supabase": "^0.8.0",
     "@nativescript/android": "^9.0.0",
     "@nativescript/angular": "^20.1.0",
     "@nativescript/ios": "^9.0.1",
