@@ -39,6 +39,7 @@ export function setStatusBarColor(
           .getWindow()
           .getDecorView()
           .setSystemUiVisibility(
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             (<any>android.view.View).SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
           );
       }
