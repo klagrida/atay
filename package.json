@@ -6,9 +6,9 @@
   "private": true,
   "devDependencies": {
     "@gridatek/nx-supabase": "^0.7.0",
-    "@nx/js": "22.3.3",
-    "@nx/workspace": "22.3.3",
-    "nx": "22.3.3",
+    "@nx/js": "22.6.4",
+    "@nx/workspace": "22.6.4",
+    "nx": "22.6.4",
     "supabase": "^2.65.6"
   }
 }
