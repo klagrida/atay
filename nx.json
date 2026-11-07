@@ -13,5 +13,8 @@
   },
   "plugins": [
     "@gridatek/nx-supabase"
-  ]
+  ],
+  "affected": {
+    "legacy": true
+  }
 }
